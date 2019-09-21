@@ -1,0 +1,83 @@
+h2 {
+    color: red;
+}
+
+.italic {
+    font-style: italic
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#background-red {
+    background: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+.small {
+    text-transform: lowercase;
+}
+
+.container p {
+    background: yellow;
+}
+
+.child-selector > ul a {
+    background: orange;
+}
+
+.sister h3 + .some-class {
+    font-style: italic;
+}
+
+.sister h2 ~ .some-class {
+    font-style: italic;
+}
+
+h4,
+h5,
+h6 {
+    background: yellow;
+    color: green;
+}
+
+*.universal {
+    text-transform: uppercase;
+    color: red;
+}
+
+.pseudo p:hover {
+    color: cyan;
+}
+
+.pseudo a:hover {
+    color: crimson;
+}
+
+.two-container p:first-of-type {
+    background: springgreen;
+}
+
+.two-container p:last-of-type {
+    background: skyblue;
+}
+
+.block3 p:first-child {
+    background: yellowgreen;
+}
+
+.block3 p:last-child {
+    color: chocolate;
+}
+
+.block4 p:not(.wow) {
+    background: grey;
+}

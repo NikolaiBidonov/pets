@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <title>Кино в Иннополисе</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <style>
+        p {
+            color: red;
+        }    
+    </style>
+</head>
+
+<body>
+   <div class="container">
+       Наследуется от класса container
+       <p>Параграф тоже наследуется</p>
+       <h2>А заголовки нет. Потому что заголовкам прописаны стили 
+           по умолчанию в браузере</h2>
+   </div>
+
+   <div class="block">
+       <h3>Благодаря значению inherit размер 
+           шрифта наследуется от родителя</h3>
+   </div>
+
+   <div class="block2">
+       <h4>Какой-то длинный заголовок. <span class="initial">Здесь через 
+           initial задает изначальный стиль.</span> 
+        А дальше снова родительский</h4>
+   </div>
+
+   <div>Специфичность: 22 строка css<br>
+        <p style="color: cyan">Стиль прописанный 
+            инлайн имеет наибольшую специфичность (приоритет)
+        Затем идут глобальные стили в head, затем из css</p>
+    </div>
+
+    <div class="block3">25 строка <br>
+        <a style="background: darkgreen">Инлайн стили имеют 
+            большую специфичность, пока не пришел !important</a>
+    </div>
+</body>
+
+</html>

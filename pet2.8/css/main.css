@@ -1,0 +1,27 @@
+.container {
+    font-size: 15px;
+}
+
+.block {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: inherit;
+}
+
+.block2 {
+    font-style: italic;
+}
+
+.initial {
+    font-style: initial;
+}
+
+p {
+    color: blue;
+}
+
+a {
+    background: thistle !important;
+}
