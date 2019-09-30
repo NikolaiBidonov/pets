@@ -1,0 +1,48 @@
+.container {
+    width: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: dense;
+}
+
+.item1 {
+    background: yellowgreen;
+}
+
+.item2 {
+    background: rgb(114, 118, 158);
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.item3 {
+    background: rgb(228, 81, 36);
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+.item4 {
+    background: rgb(97, 29, 66);
+    align-self: center;
+}
+
+.item5 {
+    background: rgb(41, 3, 8);
+}
+
+.item6 {
+    background: rgb(131, 156, 16);
+}
+.item7 {
+    background: rgb(53, 11, 151);
+}
+
+
+.item8 {
+    background: yellowgreen;
+    grid-area: item5;
+}
